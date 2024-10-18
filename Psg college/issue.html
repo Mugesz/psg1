@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Issue Tracker</title>
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <!-- Logo and Navigation -->
+    <div class=" header">
+        <a href="dashboard.html"> <img src="Psg lgo 2.png" class="logo" /></a>      <nav class="navd">
+        <a class="nav-wrap"  href="dashboard.html">Home</a>
+        <a class="nav-wrap" href="dashboard.html">About Us</a>
+        <a class="nav-wrap" href="dashboard.html">Events</a>
+        <a class="nav-wrap" href="dashboard.html">Gallery</a>
+        <a class="nav-wrap" href="dashboard.html">Contact Us</a>
+      </nav>
+    </div>
+
+    <!-- Issue Form Section -->
+    <div class="container">
+   
+      <section class="main">
+        <div class="main-top">
+          <p>Track your issues effectively!</p>
+        </div>
+        <div class="main-body">
+          <h1>Recent Issues</h1>
+        
+          <div class="search_bar">
+            <input type="search" placeholder="Search issues here...">
+            <select name="" id="">
+              <option>Category</option>
+              <option>Bug Report</option>
+              <option>Feature Request</option>
+              <option>General Inquiry</option>
+            </select>
+            <select class="filter">
+              <option>Filter</option>
+            </select>
+          </div>
+  
+          <div class="tags_bar">
+            <div class="tag">
+              <i class="fas fa-times"></i>
+              <span>Technical</span>
+            </div>
+            <div class="tag">
+              <i class="fas fa-times"></i>
+              <span>Non-Technical</span>
+            </div>
+            <div class="tag">
+              <i class="fas fa-times"></i>
+              <span>Feedback</span>
+            </div>
+          </div>
+  
+          <div class="row">
+            <p>There are more than <span>150</span> issues reported</p>
+            <a href="#">See all</a>
+          </div>
+  
+          <div class="issue_card">
+            <div class="issue_details">
+              <div class="img">
+                <i class="fas fa-bug"></i>
+              </div>
+              <div class="text">
+                <h2>Login Issue</h2>
+                <span>Reported by: Student A</span>
+              </div>
+            </div>
+            <div class="issue_status">
+              <h4>Status: Open</h4>
+              <span>1 day ago</span>
+            </div>
+          </div>
+          
+          <div class="issue_card">
+            <div class="issue_details">
+              <div class="img">
+                <i class="fas fa-question"></i>
+              </div>
+              <div class="text">
+                <h2>Feature Request: Dark Mode</h2>
+                <span>Requested by: Student B</span>
+              </div>
+            </div>
+            <div class="issue_status">
+              <h4>Status: In Review</h4>
+              <span>2 days ago</span>
+            </div>
+          </div>
+  
+          <div class="issue_card">
+            <div class="issue_details">
+              <div class="img">
+                <i class="fas fa-comments"></i>
+              </div>
+              <div class="text">
+                <h2>Feedback on Course Material</h2>
+                <span>Submitted by: Student C</span>
+              </div>
+            </div>
+            <div class="issue_status">
+              <h4>Status: Closed</h4>
+              <span>3 days ago</span>
+            </div>
+          </div>
+  
+          <div class="issue_card">
+            <div class="issue_details">
+              <div class="img">
+                <i class="fas fa-tools"></i>
+              </div>
+              <div class="text">
+                <h2>System Maintenance Required</h2>
+                <span>Reported by: Staff D</span>
+              </div>
+            </div>
+            <div class="issue_status">
+              <h4>Status: Open</h4>
+              <span>4 days ago</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

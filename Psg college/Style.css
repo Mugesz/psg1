@@ -1,0 +1,626 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mako&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: Roboto, sans-serif, arial;
+  font-size: 16px;
+  color: #242424;
+}
+
+.container {
+  width: 1400px;
+  margin: 0px auto;
+  overflow: hidden;
+}
+
+/****************HEADER SECTION****************/
+.header {
+  background: #0055a4;
+}
+
+.header b {
+  background: #fff;
+  color: red;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.header marquee {
+  font-size: 20px;
+  color: #ffffff;
+  width: 80%;
+}
+
+.navd {
+  margin-right: 90px;
+  margin-top: 20px;
+  font-family: "Poppoins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 37px;
+  padding-right: 100px;
+}
+
+.navd a {
+  color: black; /* Text color */
+  text-decoration: none; /* Remove underline */
+  padding: 6px 6px; /* Space around the links */
+  border-radius: 8px; /* Rounded corners */
+  margin: 0 5px; /* Space between links */
+  transition: background-color 0.3s;
+}
+.navd a:hover {
+  background-color: #007bff; /* Change background color on hover */
+}
+
+.nav-wrap {
+  color: #fff;
+}
+
+.nav-wrap:hover {
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  color: black;
+}
+
+/**********LOGO SECTION**********/
+.logo {
+  height: 112px;
+  width: 280px;
+  margin-left: 6vw;
+}
+
+.log {
+  height: 112px;
+  width: 280px;
+}
+
+.logins {
+  padding: 10px 20px;
+  background-color: #57b9ff;
+  border-radius: 12px;
+  color: #fff;
+}
+
+.logins:hover {
+  background-color: transparent;
+  color: black;
+  border: 3px solid #0055a4;
+}
+
+/**********MENU SECTION**********/
+nav {
+  float: right;
+  padding: 25px 0px;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 2px 10px;
+  font-weight: 500;
+}
+.slider img {
+  width: 100%;
+  height: 400px;
+}
+
+/****************EVENT SECTION*************/
+
+.main-section {
+  width: 100%;
+  float: left;
+  padding: 100px 0px 100px 0px;
+  padding-left: 35px;
+}
+
+.event {
+  width: 32%;
+  margin-right: 1%;
+  float: left;
+  background-color: #fff;
+}
+
+.event i {
+  color: red;
+  font-size: 14px;
+}
+
+.event div {
+  padding: 10px;
+}
+
+.event .heading {
+  padding: 10px;
+  color: #fff;
+  background: #0055a4;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.event ul li {
+  margin-bottom: 20px;
+  width: 100%;
+  float: left;
+  list-style: none;
+}
+
+.event-date {
+  background: red;
+  float: left;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  padding: 8px 12px;
+  margin-right: 10px;
+}
+
+/*******CAMPUS NEWS SECTION***********/
+.campus-news span {
+  width: 80px;
+  float: left;
+}
+
+.campus-news h2 {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.campus-news h6 {
+  font-weight: 500;
+  font-size: 13px;
+  color: red;
+}
+
+.campus-news p {
+  font-size: 14px;
+}
+
+/****************ABOUT US SECTION****************/
+.heading {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  color: #0055a4;
+}
+
+.subhead {
+  font-size: 18px;
+  color: red;
+  font-weight: 500;
+}
+
+.about-us div {
+  width: 45%;
+  float: left;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.about-us h4 {
+  font-size: 18px;
+  color: red;
+  font-weight: 500;
+}
+
+.about-us p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  padding-right: 30px;
+  line-height: 23px;
+}
+
+.about-us img {
+  width: 40%;
+  float: left;
+}
+
+/****************AWARD SECTION****************/
+.award p {
+  width: 100%;
+  float: left;
+  font-size: 16px;
+}
+
+.award img {
+  width: 100%;
+}
+
+.award b {
+  min-width: 115px;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.award h3 {
+  font-size: 23px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/****************CHAIRMAN SECTION****************/
+.chairman img {
+  width: 150px;
+  float: left;
+  margin-right: 10px;
+}
+
+.chairman h2 {
+  font-size: 22px;
+  margin-top: 30px;
+}
+
+.chairman h4 {
+  font-size: 16px;
+  color: red;
+  font-weight: 400;
+}
+
+/****************TESTIMONIAL SECTION****************/
+.testimonial {
+  width: 30.5%;
+  float: left;
+  margin-right: 2.5%;
+}
+
+.testimonial-text {
+  background: #0055a40f;
+  padding: 20px;
+  line-height: 35px;
+  border-radius: 10px;
+  font-size: 18px;
+  text-align: center;
+  border: 1px solid #0055a4;
+}
+
+.testimonial-detail {
+  float: left;
+  margin-top: 10px;
+}
+
+.testimonial-img {
+  float: left;
+}
+
+.testimonial-name {
+  margin-left: 10px;
+  float: left;
+}
+
+.testimonial-name h5 {
+  font-size: 18px;
+  margin-top: 8px;
+}
+
+/****************GALLERY SECTION****************/
+.gallery img {
+  width: 23.2%;
+  margin-right: 1.5%;
+  margin-bottom: 20px;
+}
+
+/****************FOOTER SECTION****************/
+.footer {
+  background-color: #f0f3fa;
+  padding: 40px 0px;
+  width: 100%;
+  float: left;
+}
+
+.footer-logo {
+  height: 70px;
+  width: auto;
+}
+
+.footer-sect {
+  width: 100%;
+  float: left;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.footer-sect a {
+  color: #202020;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+/* Login Page */
+.login-container {
+  width: 320px;
+  margin: 100px auto;
+  padding: 30px;
+  border: 3px solid #ccc;
+  text-align: center;
+  background-color: #0055a4;
+  margin-bottom: 250px;
+  border-radius: 12px;
+}
+
+.login-wrapper {
+  position: relative;
+  height: 85vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.login-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("coll.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: blur(10px);
+  z-index: -1;
+}
+
+.login-container {
+  position: relative;
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 1;
+  text-align: center;
+  width: 300px;
+  color: white;
+}
+
+.login-container input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.login-container input {
+  width: 95%;
+  margin: 11px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.login-container button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: #218838;
+}
+
+.div-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 40px;
+}
+
+#cars {
+  width: 400px;
+  height: 50px;
+}
+.logoss {
+  border-radius: 2px;
+}
+
+/* Issue Tracker Form */
+.form-section {
+  width: 400px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.form-section input,
+.form-section textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.form-section button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.form-section button:hover {
+  background-color: #0056b3;
+}
+
+/* Popup */
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border: 2px solid #28a745;
+  text-align: center;
+}
+
+.popup button {
+  padding: 5px 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.hero-section img {
+  object-fit: contain;
+}
+.index_bg {
+  background-image: url(login.png);
+  height: 73vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Select {
+  width: 100%;
+  height: 40px;
+}
+
+.lefty {
+  margin-left: 10px;
+}
+
+/* General Styles */
+/* body {
+  font-family: 'Verdana', Geneva, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+} */
+
+/* .container {
+  display: flex;
+} */
+
+/* Navbar Styles */
+
+/* Main Section Styles */
+.main {
+  flex: 1;
+  padding: 20px;
+}
+
+.main-top {
+  margin-bottom: 20px;
+}
+
+.main-top p {
+  font-size: 24px;
+}
+
+.main-body h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Search Bar Styles */
+.search_bar {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.search_bar input[type="search"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search_bar select {
+  padding: 10px;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Tags Bar Styles */
+.tags_bar {
+  margin-bottom: 20px;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+.tag i {
+  margin-right: 5px;
+}
+
+/* Issue Card Styles */
+.issue_card {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.issue_details {
+  display: flex;
+  align-items: center;
+}
+
+.issue_details .img {
+  font-size: 24px;
+  color: #007bff;
+  margin-right: 15px;
+}
+
+.issue_details .text {
+  flex-grow: 1;
+}
+
+.issue_status {
+  text-align: right;
+}
+
+.issue_status h4 {
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.row a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  nav {
+    height: auto;
+  }
+
+  .main {
+    padding: 10px;
+  }
+}
